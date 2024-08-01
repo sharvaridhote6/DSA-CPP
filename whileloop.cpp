@@ -292,5 +292,9 @@ while(i<=n){
         row=row+1;
     }
           */
+
+// pattern new
+
+
 }
 
