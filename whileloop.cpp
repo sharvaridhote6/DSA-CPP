@@ -140,11 +140,11 @@ while(i>=n){
 
 
 //pattern 5= 123,456,789- rows
-/*    1 2 3
+    /*1 2 3
       4 5 6
       7 8 9
 
-int n;
+int n;                                                                 
 cin>>n;
 int i= 1;
 int count= 1;
@@ -158,8 +158,7 @@ while(i<=n){
     cout<<endl;
     i=i+1;
     }
-    */
-
+    
 
 
    //pattern 6= *triangle
@@ -274,7 +273,7 @@ while(i<=n){
   
 
    //pattern 11
-      /* 1
+    /* 1
        23
        345
        4567
@@ -300,7 +299,7 @@ while(i<=n){
     while(row<=n){
         int col=1;
         while(col<=n){
-            char ch = 'A' + row -1;
+            char ch = 'A' + row -1; typecasting, converting A into int hence added char ch to it.
             cout<< ch;
             col=col+1;
         }
@@ -309,5 +308,48 @@ while(i<=n){
     }
 */
 
+
+  //pattern 
+/*1
+  2 3
+  4 5 6
+  7 8 9 10
+  11 12 13 14 15 
+  int n;
+  cin>>n;
+  int row=1;
+  int start=1;
+  while(row<=n){
+    int col=1;
+    while(col<=row){
+        cout<<start<<" ";
+        start =start+1;
+        col=col+1;
+    }
+    cout<<endl;
+    row=row+1;
+  }
+  */
+
+ //pattern 13- abc def ghi
+ //pattern 14
+  /*A B C
+  B C D 
+  C D E
+  
+    int n;
+    cin>>n;
+    int row= 1;
+    while(row<=n){
+        int col=1;
+        while(col<=n){
+            char ch= 'A' +row +col -2;
+            cout<< ch;
+            col=col+1;
+        }
+        cout<<endl;
+        row= row+1;
+    }
+    */
 }
 
