@@ -235,12 +235,7 @@ while(i<=n){
    2 3 
    3 4 5
    4 5 6 7
-<<<<<<< HEAD
-   5 6 7 8 9
-  
-=======
 
->>>>>>> fc00aec587a65dbb1b900b085174fe80ec4d7408
   int n;
   cin>>n;
   int row=1;
@@ -350,6 +345,47 @@ while(i<=n){
         cout<<endl;
         row= row+1;
     }
+    */
+
+   //pattern 15
+   /*A
+     B B
+     C C C
+    int n;
+    cin>>n;
+    int row=1;
+    while(row<=n){
+        int col=1;           // if in this same pattern the char ch line was to be put below initialising row, then the output would've been triangular A's 
+        while(col<=row){
+            char ch= ('A' +row -1);
+            cout<<ch;
+            col=col+1;
+        }
+        cout<<endl;
+        row=row+1;
+    }
+    */
+
+
+// pattern 16
+/*  A
+    B C 
+    D E F
+    G H I J 
+    int n;
+    cin>>n;
+    int row=1;
+    char ch= 'A';
+    while(row<=n){
+        int col=1;
+        while(col<=row){
+            cout<<ch;
+            ch=ch+1;
+            col=col+1;
+        }
+        cout<<endl;
+        row=row+1;
+    } 
     */
 }
 
