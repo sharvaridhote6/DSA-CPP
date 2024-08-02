@@ -329,8 +329,8 @@ while(i<=n){
  //pattern 13- abc def ghi
  //pattern 14
   /*A B C
-  B C D 
-  C D E
+    B C D 
+    C D E
   
     int n;
     cin>>n;
@@ -387,5 +387,52 @@ while(i<=n){
         row=row+1;
     } 
     */
+
+
+   //pattern 17
+  /*A
+    B C
+    C D E 
+    D E F G
+    int n;
+    cin>>n;
+    int row=1;
+    while(row<=n){
+        int col=1;
+        while(col<=row){
+            char ch=('A' + row+ col-2);
+            cout<<ch;
+            col= col+1; 
+        }
+        cout<<endl;
+        row=row+1;
+    }
+    */
+
+
+   //pattern 18
+   /* D
+      B C D 
+      A B C D
+    int n;
+    cin>>n;
+    int row=1;
+    while(row<=n){
+        int col=1;
+        char chf=('A' +n -row);
+        while(col<=row){
+            cout<<chf;
+        chf= chf + 1;
+        col=col+1;  
+    }
+    cout<<endl;
+    row=row+1;
+    }
+
+
+                            47 mins  
+      
+    */
 }
+
 
