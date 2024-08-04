@@ -487,9 +487,10 @@ while(i<=n){
     cin>>n;
     int row=1;
     while(row<=n){
-        int space=row-1;
+        int space=row -1;
         while(space){
-            cout<<" ";          //fix it - stars=n-row+1, space= row-1.
+            cout<<" ";     
+            space= space +1;     //fix it - stars=n-row+1, space= row-1.
         }
         int col=1;
         while(col<=row){      
@@ -500,15 +501,49 @@ while(i<=n){
         row=row+1;
     }
         
-
-        //pattern 22,23,24,25- in book
+/*
+        //pattern 22,23,24,25,26 - in book
         1 1 1 1
           2 2 2
             3 3
               4
-*/
 
-//pattern 23
+*/
+//pattern 27
+/*
+            1
+          1 2 1
+        1 2 3 2 1
+      1 2 3 4 3 2 1      
+*/
+    int n;
+    cin>>n;
+    int row=1;
+    while(row<=n){
+
+        //print space
+        int space=n-row;
+        while(space){
+            cout<<" ";
+            space=space-1;
+        }
+
+        //print 1st triangle
+        int col=1;
+        while(col<=row){
+            cout<<col;
+            col=col+1;
+        }
+
+        //print 2nd triangle
+        int start=row-1;
+        while(start){
+            cout<<start;
+            start=start-1;
+        }
+        cout<<endl;
+        row=row+1;
+    }
   
  
 }
