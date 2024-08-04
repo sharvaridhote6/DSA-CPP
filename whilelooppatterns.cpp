@@ -477,6 +477,39 @@ while(i<=n){
     row=row+1;
   }*/
 
+//pattern 21
+/*  * * * *
+      * * *      fix this code
+        * *
+          *
+
+    int n;
+    cin>>n;
+    int row=1;
+    while(row<=n){
+        int space=row-1;
+        while(space){
+            cout<<" ";          //fix it - stars=n-row+1, space= row-1.
+        }
+        int col=1;
+        while(col<=row){      
+            cout<<"*";
+            col=col+1;
+        }
+        cout<<endl;
+        row=row+1;
+    }
+        
+
+        //pattern 22,23,24,25- in book
+        1 1 1 1
+          2 2 2
+            3 3
+              4
+*/
+
+//pattern 23
+  
  
 }
 
