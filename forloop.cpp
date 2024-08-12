@@ -26,6 +26,5 @@ int main(){
         b=nextNumber;
     }
     */
- // new 
-    //new 1
+
 }
