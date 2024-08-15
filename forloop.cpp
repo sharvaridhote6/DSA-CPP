@@ -43,5 +43,71 @@ int main(){
     else{
         cout<<"Prime number"<<endl;
     }
-   */
+   
+
+  //continue
+  for (int i=0;i<5;i++){
+    cout<<"hi"<<endl;
+    continue;
+    cout<<"hello"<<endl;
+  }
+  
+
+ //homework:
+ for (int i=0;i<=5;i++){
+    cout<<i<<" ";
+    i++;
+ }
+
+for(int i=0;i<=15;i+=2){
+    cout<<i<<" ";
+    if(i&1){  //checks if the integer is odd -If i is odd, the LSB is 1, so i & 1 will result in 1. If i is even, the LSB is 0, so i & 1 will result in 0
+        continue;
+    }
+    i++;
+    }
+    
+
+   for (int i=0;i<=5;i++){
+    for(int j=1;j<5;j++){
+        cout<<i<<" "<<j<<endl;  // 0 is constant on the first iteration w 4 values of j, then i moves to next iteration w 4 vals of j and so on for 5 i iterations
+    }
+   }  
+
+  
+   for (int i=0;i<=5;i++){
+    for(int j=1;j<5;j++){
+        if(i+j<=2){
+            break;
+        }
+        cout<<i<<" "<<j<<endl;  
+    }
+   } 
+
+  //leetcode problem 1- subtract product and sum of digits of a number
+  int n;
+  int prod=1;
+  int sum=0;
+  while(n!=0){
+    int digit=n%10;
+   prod= prod*digit;
+   sum=sum+digit;
+   n= n/10; 
+  }
+  int answer= prod-sum;
+  return answer;
+*/
+
+
+//leetcode2- wirte a fucntion of an unsigned integer to calculate no. of 1 bits
+int n;
+cin>>n;
+int count =0;
+while(n!=0){
+    if(n&1){
+        count++;
+    }
+    n=n>>1;
 }
+return count;
+}   
