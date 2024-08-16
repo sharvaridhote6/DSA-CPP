@@ -3,7 +3,9 @@ using namespace std;
 
 int main(){
 
-    /*int n;
+    /*cout<<"Hello World!"<<endl;
+    
+    int n;
     cin>>n;
     cout<<"answer is " << n <<endl;
 

@@ -96,7 +96,6 @@ for(int i=0;i<=15;i+=2){
   }
   int answer= prod-sum;
   return answer;
-*/
 
 
 //leetcode2- wirte a fucntion of an unsigned integer to calculate no. of 1 bits
@@ -110,4 +109,6 @@ while(n!=0){
     n=n>>1;
 }
 return count;
+*/
+
 }   
