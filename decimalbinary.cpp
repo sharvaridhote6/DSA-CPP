@@ -30,7 +30,7 @@ while(n!=0){
 }
 int newAns=~ans;
 cout<<newAns;
-*/
+
 
 //conversion of binary to decimal
 int n;
@@ -45,6 +45,7 @@ while(n!=0){
     i++;
 }
  cout<<ans<<endl;
+ */
 }
 
 
