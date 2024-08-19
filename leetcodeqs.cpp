@@ -5,7 +5,7 @@ int main(){
  /* int n;
   int prod=1;
   int sum=0;
-  while(n!=0){
+  while(n!=0){           meaning- keep executing the loop till n doesn't equalize to 0
     int digit=n%10;
    prod= prod*digit;
    sum=sum+digit;
@@ -28,5 +28,21 @@ while(n!=0){
     n=n>>1;
 }
 return count;
+
+
+
+
+//reverse given integer x
+int n;
+cin>>n;
+int ans=0;
+while(n!=0){
+  int digit =n%10;
+  ans=(ans*10)+digit;
+  n=n/10;
+}
+cout<<ans;
 */
+
+
 }
