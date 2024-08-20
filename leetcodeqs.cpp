@@ -1,4 +1,5 @@
 #include<iostream>
+#include<math.h>
 using namespace std;
 int main(){
 //leetcode problem 1- subtract product and sum of digits of a number
@@ -43,6 +44,36 @@ while(n!=0){
 }
 cout<<ans;
 */
+ 
 
+//complement of base 10 integer
+int m=n;
+int mask=0;
+//edge case
+if(n==0)
+return 1;
+while(m!=0){
+  mask=(mask<<1)|1;
+  m=m>>1;
+}
+int ans=(~n)&mask;
+return ans;
+
+
+//power of 2
+/*we have to check if the given integer n is in the power of 2 or not, if it is, then return true, else false
+logic- range of an integer is from (2^31 to 2^31-1), so execute a loop from 0-30 and check if n=2^x, if yes then true.*/
+int ans=1;
+for (int i=0;i<=30;i++){
+ 
+  if (ans==n){
+    return true;
+  }
+  if(ans< INT_MAX/2)
+  ans=ans*2;
+
+    return false;
+  }
 
 }
+
