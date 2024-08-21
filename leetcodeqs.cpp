@@ -45,7 +45,6 @@ while(n!=0){
 cout<<ans;
 */
  
-
 //complement of base 10 integer
 int m=n;
 int mask=0;
@@ -58,6 +57,7 @@ while(m!=0){
 }
 int ans=(~n)&mask;
 return ans;
+
 
 
 //power of 2
