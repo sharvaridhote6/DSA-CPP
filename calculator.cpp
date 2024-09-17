@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
 int main(){
-    yreee
+    int a,b;
+    cout<<
 }
