@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
+int main() 
 {
 
     // pre and post increment and decrement
