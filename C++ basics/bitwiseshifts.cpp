@@ -26,3 +26,4 @@ int main()
     cout<<(19<<2)<<endl;
     */
 }
+
