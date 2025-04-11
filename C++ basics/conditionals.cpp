@@ -43,9 +43,4 @@ switch(ch){
 }
 cout<<endl;
 */
-
-
-
-
-
 }
