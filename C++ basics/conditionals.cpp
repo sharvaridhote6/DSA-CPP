@@ -42,5 +42,5 @@ switch(ch){
     default:cout<<"It is default case "<<endl;    
 }
 cout<<endl;
-*/
+*/  
 }
