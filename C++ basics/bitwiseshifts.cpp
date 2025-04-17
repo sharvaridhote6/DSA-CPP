@@ -18,7 +18,6 @@ int main()
     cout<<"~a "<<(~a)<< endl;
     cout<<"a^b "<<(a^b)<< endl;
 
-
    //left and right shifting
     cout<<(17>>1)<<endl;// right shift
     cout<<(17>>2)<<endl;
