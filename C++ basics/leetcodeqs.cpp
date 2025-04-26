@@ -18,7 +18,6 @@ int main()
  }
 
 
-
  //leetcode2- wirte a fucntion of an unsigned integer to calculate no. of 1 bits
  int n;
  cin>>n;
@@ -30,8 +29,6 @@ int main()
      n=n>>1;
  }
  return count;
-
-
 
 
  //reverse given integer x
