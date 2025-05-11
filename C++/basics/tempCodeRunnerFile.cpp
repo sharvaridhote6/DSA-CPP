@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+// using namespace std;
 
 // // void/int (or whatevrr type of return type we can use)
 // // function definition below
@@ -26,24 +26,3 @@ using namespace std;
 // {
 //     cout << sum(2, 3) << endl; // 5
 // }
-
-// // power of a and b
-// int power(int a, int b)
-// {
-//     int ans = 1;
-//     for (int i = 1; i <= b; i++)
-//     {
-//         ans = ans * a;
-//     }
-//     return ans;
-// }
-// int main()
-// {
-//     int a, b;
-//     cin >> a >> b;
-//     int answer = power(a, b);
-//     cout << answer << endl;
-//     return 0;
-// }
-
-// even odd program
