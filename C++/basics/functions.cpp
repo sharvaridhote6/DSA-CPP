@@ -46,4 +46,31 @@ using namespace std;
 //     return 0;
 // }
 
-// even odd program
+// prime no program
+bool isPrime(int n)
+{
+    for (int i = 2; i < n; i++)
+    {
+        if (n % i == 0)
+        {
+            return 0;
+        }
+    }
+    return 1;
+}
+int main()
+{
+    int n;
+    cin >> n;
+    if (isPrime(n))
+    {
+        cout << n << " is prime no" << endl;
+    }
+    else
+    {
+        cout << n << " is not prime no" << endl;
+    }
+}
+
+// pass by value- it will not change the value of the variable
+// pass by reference- it will change the value of the variable
