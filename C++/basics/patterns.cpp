@@ -66,4 +66,6 @@ int main()
     }
 
     // pattern7-
+
+    
 }
