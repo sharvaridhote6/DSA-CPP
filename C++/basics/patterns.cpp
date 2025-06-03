@@ -65,7 +65,61 @@ int main()
         cout << endl;
     }
 
-    // pattern7-
+    // pattern7- triangle stars
+    for (int i = 0; i < n; i++)
+    {
+        // space
+        for (int j = 0; j < n - i - 1; j++)
+        {
+            cout << " ";
+        }
+        // stars
+        for (int j = 0; j < 2 * i + 1; j++)
+        {
+            cout << "*";
+        }
+        // space
+        for (int j = 0; j < n - i - 1; j++)
+        {
+            cout << " ";
+        }
+        cout << endl;
+    }
 
-    
+    // pattern8- inverted triangle stars
+    for (int i = 0; i < n; i++)
+    {
+        // space
+        for (int j = 0; j < i; j++)
+        {
+            cout << " ";
+        }
+        // stars
+        for (int j = 0; j < 2 * (n - i) - 1; j++)
+        {
+            cout << "*";
+        }
+        // space (optional, for symmetry)
+        for (int j = 0; j < i; j++)
+        {
+            cout << " ";
+        }
+        cout << endl;
+    }
+
+    // pattern9- diamond
+    // combine both above haha
+
+    // pattern 10- traingle poitning to right w base on left
+    for (int i = 0; i <= 2 * n - 1; i++)
+    {
+        for (int j = 0; j <= i; j++)
+        {
+            cout << "*";
+        }
+        for (int j = 0; j; j++)
+        {
+        }
+        cout << endl;
+    }
 }
